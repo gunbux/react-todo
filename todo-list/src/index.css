@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  min-height:90vh;
+}
+
+.task-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  margin: 20px;
+  background-color: lightgrey;
+  border-radius: 8px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  font-size: 15px;
+  border-bottom: solid 1px;
+}
+
+.btn {
+  display: inline-block;
+  background: steelblue;
+  color: #ffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 7px;
+  font-family: inherit;
+}
+
+.bigBtn {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(3); /* IE */
+  -moz-transform: scale(3); /* FF */
+  -webkit-transform: scale(3); /* Safari and Chrome */
+  -o-transform: scale(3); /* Opera */
+  transform: scale(3);
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 5px;
+}
+
+.form-control label {
+  display: block;
+  font-size: 20px;
+  margin: 3px;
+}
+
+.form-control input {
+  height: 30px;
+  margin: 5px;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: solid 1px steelblue;
+}
+
+.add-form {
+  border: 1px solid;
+  border-radius: 6px;
+  padding: 15px;
+  margin: 15px;
+  align-items: center;
+}
+
+.checked {
+  background-color: blue;
+}
